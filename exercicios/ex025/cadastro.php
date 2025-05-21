@@ -1,0 +1,1 @@
+Os dados foram capturados, para mais informações estuden php
