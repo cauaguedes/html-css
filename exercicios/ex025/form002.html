@@ -7,10 +7,10 @@
 </head>
 <body>
     <h1>Teste de Formulário</h1>
-    <form action="cadastro.php" method="get">
+    <form action="cadastro.php" method="post">
         <p>
             <label for="iusu">Usuário</label>
-            <input type="text" name="usu" id="iusu">
+            <input type="text" name="usu" id="iusu" required>
         </p>
         <p>
             <label for="isen">Senha:</label>
@@ -18,7 +18,9 @@
         </p>
         <p>
             <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
         </p>
+        
     </form>
 </body>
 </html>
