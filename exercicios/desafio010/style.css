@@ -45,7 +45,7 @@ header {
 }
 
 header > h1 {
-    color: white;
+    color: white;   
     font-family: var(--fonte-destaque);
     font-size: 3em;
     font-weight: normal;
@@ -161,8 +161,8 @@ div.video {
 
 div.video > iframe {
     position: absolute;
-    top:5%;
-    left:5%;
+    top: 5%;
+    left: 5%;
     width: 90%;
     height: 90%;
 }
