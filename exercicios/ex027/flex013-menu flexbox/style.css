@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    border-color: gray;
+    background-color: gray;
     color: white;
     padding: 10px;
 
@@ -56,17 +56,12 @@ header > nav > a:hover {
     transition: backgroud-color .5s;
 }
 
-nav {
-    border: 1px dotted black;
-}
-
 main {
     background-color: white;
     margin: 10px;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 2px 2px black;
 }
 
 
-TERMINEI 10:09
