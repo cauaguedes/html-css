@@ -1,6 +1,14 @@
 @charset "UTF-8";
 
-header {
-
+header, header > nav {
+    flex-flow: column nowrap;
 }
-TERMINEI 6:20
+
+
+header > h1 {
+    flex-basis: 50px;
+}
+
+header > nav > a {
+    width: 90vw;
+}
